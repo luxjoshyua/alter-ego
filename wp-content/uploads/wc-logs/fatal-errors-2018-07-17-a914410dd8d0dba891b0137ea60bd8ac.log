@@ -1,0 +1,8 @@
+2018-07-17T11:50:30+00:00 CRITICAL Uncaught Error: Call to undefined function single_header_background() in /app/public/wp-content/themes/alterego/woocommerce/single-product.php:26
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown
+

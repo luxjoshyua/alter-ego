@@ -1,0 +1,42 @@
+2018-07-24T20:03:13+00:00 CRITICAL Uncaught Error: Call to undefined function cart_url() in /app/public/wp-content/themes/alterego/template-parts/header-search.php:17
+Stack trace:
+#0 /app/public/wp-includes/template.php(690): require()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', false)
+#2 /app/public/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#3 /app/public/wp-content/themes/alterego/template-parts/featured-image.php(5): get_template_part('template-parts/...')
+#4 /app/public/wp-includes/template.php(690): require('/app/public/wp-...')
+#5 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', false)
+#6 /app/public/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#7 /app/public/wp-content/themes/alterego/header.php(51): get_template_part('template-parts/...')
+#8 /app/public/wp-includes/template.php(688): require_once('/app/public/wp-...')
+#9 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#1
+
+2018-07-24T20:21:27+00:00 CRITICAL Uncaught Error: Call to undefined function cart_url() in /app/public/wp-content/themes/alterego/template-parts/header-search.php:15
+Stack trace:
+#0 /app/public/wp-includes/template.php(690): require()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', false)
+#2 /app/public/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#3 /app/public/wp-content/themes/alterego/template-parts/featured-image.php(5): get_template_part('template-parts/...')
+#4 /app/public/wp-includes/template.php(690): require('/app/public/wp-...')
+#5 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', false)
+#6 /app/public/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#7 /app/public/wp-content/themes/alterego/header.php(51): get_template_part('template-parts/...')
+#8 /app/public/wp-includes/template.php(688): require_once('/app/public/wp-...')
+#9 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#1
+
+2018-07-24T20:21:30+00:00 CRITICAL Uncaught Error: Call to undefined function cart_url() in /app/public/wp-content/themes/alterego/template-parts/header-search.php:15
+Stack trace:
+#0 /app/public/wp-includes/template.php(690): require()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', false)
+#2 /app/public/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#3 /app/public/wp-content/themes/alterego/template-parts/featured-image.php(5): get_template_part('template-parts/...')
+#4 /app/public/wp-includes/template.php(690): require('/app/public/wp-...')
+#5 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', false)
+#6 /app/public/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#7 /app/public/wp-content/themes/alterego/header.php(51): get_template_part('template-parts/...')
+#8 /app/public/wp-includes/template.php(688): require_once('/app/public/wp-...')
+#9 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#1
+
